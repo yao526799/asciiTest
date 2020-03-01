@@ -93,7 +93,7 @@ public class GZipUtils {
 	            }
 	          byte[] bt3=Base64Utils.decode(paramString);
 	          String  paramString2 = new String(decompress(bt3));
-	           String str=paramString2;
+
 	            return paramString2;
 	        }
 	        catch (Exception e)
